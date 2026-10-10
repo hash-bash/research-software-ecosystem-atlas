@@ -1,0 +1,1 @@
+{"tool_name":"tsdf","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"tsdf","home":"https://biomarkersparkinson.github.io/tsdf","license":"Apache-2.0","summary":"A package to read, modify and write TSDF data in Python.","addition_date":"2026-09-21T08:17:47.117903Z","last_update_date":"2026-09-21T08:17:47.120804Z","tool_type":["Library"],"version":["v0.6.2"]}}}
