@@ -1,20 +1,20 @@
 # Research Software Ecosystem Atlas
 
-[![Website](https://img.shields.io/badge/Website-Research--Software--Ecosystem--Atlas-blueviolet?style=for-the-badge&logo=githubpages)](https://hash-bash.github.io/Research-Software-Ecosystem-Atlas/)
+[![Website](https://img.shields.io/badge/Website-Research--Software--Ecosystem--Atlas-blueviolet?style=for-the-badge&logo=githubpages)](https://hash-bash.github.io/research-software-ecosystem-atlas/)
 
 ![RSEc Atlas Screenshot](main-screenshot.png)
-<sub>Example screenshot of the RSEc Atlas main page. The homepage allows users to search, filter, and browse through a large collection of bioinformatics tools and containers. Each tool card displays key metadata, badges, and a quick link to view detailed information. Pagination and advanced search options are available for efficient navigation.</sub>
+<sub>Example screenshot of the RSEc Atlas main page. The homepage allows users to search, filter, and browse through a large collection of bioinformatics tools and containers. Each tool card displays [...]
 
 ## 🚀 Overview
 With this static site web application we want to demonstrate the possibilities of the RSEc. Communities can take inspiration or fork this project to create subsets of tool and service repositories.
 The website is designed to help researchers and scientists explore the metadata of various scientific tools and their associated containers, packages ... you name it, with the final aim of improving
-findability. The application retrieves RAW metadata from the Git repository of the [Research Software Ecosystem Content](https://github.com/research-software-ecosystem/content), "compiles" them to be compact as possible and provides a user-friendly interface to view, search, and filter them along with their metadata.
+findability. The application retrieves RAW metadata from the Git repository of the [Research Software Ecosystem Content](https://github.com/research-software-ecosystem/content), "compiles" them to be [...]
 
 ## 🛠️ Tool Details Page
 
 ![Tool Details Screenshot](tool-screenshot.png)
 
-When a user clicks on a tool from the homepage, they are taken to a detailed page that provides comprehensive information and actionable links for that tool. The page is organized into several sections for clarity and ease of use:
+When a user clicks on a tool from the homepage, they are taken to a detailed page that provides comprehensive information and actionable links for that tool. The page is organized into several section[...]
 
 #### 1. 🏷️ Header Section
 - **Tool Name & Badges:** The tool name (e.g., "DESeq2") is prominently displayed, along with badges for license, last update, and Bioconda availability.
@@ -57,7 +57,7 @@ When a user clicks on a tool from the homepage, they are taken to a detailed pag
 - **Categories:** Shows categories and tags relevant to the tool.
 - **Conda Version:** Displays the current version available via Bioconda.
 
-This detailed layout ensures that users can quickly access all relevant information, installation instructions, usage statistics, and resources for each tool, making it easy to evaluate and use tools in their research workflows.
+This detailed layout ensures that users can quickly access all relevant information, installation instructions, usage statistics, and resources for each tool, making it easy to evaluate and use tools [...]
 
 
 
@@ -69,7 +69,7 @@ This detailed layout ensures that users can quickly access all relevant informat
 - **Shareable URLs:** Share search results or tool pages via direct links.
 
 ## 🔍 Searching
-The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string being part of Tool Name > Tool Tags > Tool Description.
+The search functionality allows users to perform query-based searches to find specific bio tools and containers. Searching is relevance-based, which lists relevant tools according to the search string[...]
 
 - **Simple Search:**  
   `BWA`, `DeepTools`, `tag:'mapping'`
@@ -78,12 +78,12 @@ The search functionality allows users to perform query-based searches to find sp
 - **List All Tags:**  
   `tag:*`
 
-> **Notes:** Searching is case-insensitive, so "BWA" and "bwa" will return the same results. `Tags` in the context of searching are the [EDAM Topics](https://edamontology.org/topics) and [bio.tools Collections](https://biotools.readthedocs.io/en/latest/curators_guide.html#collection) available on the tool details page if they exist.
+> **Notes:** Searching is case-insensitive, so "BWA" and "bwa" will return the same results. `Tags` in the context of searching are the [EDAM Topics](https://edamontology.org/topics) and [bio.tools Co[...]
 
 Searching can be done by the search bar available on the home page of the application.
 
 ### 🧲 Filtering
-The application provides various filtering options to narrow down search results based on specific criteria. This helps users quickly find the most relevant tools for their needs. The following are the filters available in the web application:
+The application provides various filtering options to narrow down search results based on specific criteria. This helps users quickly find the most relevant tools for their needs. The following are th[...]
 1. **Data Availability:** Filter to check if tools have Bioconda Packages or Biocontainers or if they are compatible with Galaxy.
 2. **License:** Filter the tools according to the licenses fetched from the metadata.
 3. **Favourite:** Filter the tools that are marked as Favourite by the user.
@@ -91,19 +91,19 @@ The application provides various filtering options to narrow down search results
 These filters are available on the home page of the application.
 
 ### 🔃 Sorting
-The tools on the homepage can be sorted by Name, Creation Date, and Last Modified Date. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by their Names.
+The tools on the homepage can be sorted by Name, Creation Date, and Last Modified Date. A drop-down on the home page of the application provides this functionality. By default, the tools are sorted by[...]
 
 ### ⭐ Favourites
-Users can mark bio tools and containers as favorites for quick access in the future. The favorites functionality ensures that users can maintain a personalized list of frequently used tools, stored in the browser. To mark a tool as a favourite, Users must go to the tool's details page by clicking on the tool name and then toggling the star in the top-right corner.
+Users can mark bio tools and containers as favorites for quick access in the future. The favorites functionality ensures that users can maintain a personalized list of frequently used tools, stored in[...]
 
 ### 🔗 URLs Sharing
-If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which will be automatically converted to `/?search=SEARCH+QUERY`. Following are some of the examples of the URLs with the search query:
-   - https://hash-bash.github.io/Research-Software-Ecosystem-Atlas/?search=1000Genomes+ID+history+converter `(Gives the tools with search string as 1000Genomes ID history converter)`
-   - https://hash-bash.github.io/Research-Software-Ecosystem-Atlas/?search=tag:'de.NBI'+tag:'RNA-Seq' `(Gives the tools with result consisting Tag de.NBI collection and tag RNA-Seq)`
+If users want to share the URL with a search query, it can be done by sharing the URL and appending `/?search=SEARCH QUERY`, which will be automatically converted to `/?search=SEARCH+QUERY`. Following[...]
+   - https://hash-bash.github.io/research-software-ecosystem-atlas/?search=1000Genomes+ID+history+converter `(Gives the tools with search string as 1000Genomes ID history converter)`
+   - https://hash-bash.github.io/research-software-ecosystem-atlas/?search=tag:'de.NBI'+tag:'RNA-Seq' `(Gives the tools with result consisting Tag de.NBI collection and tag RNA-Seq)`
 
 If users want to share a link to a tool, they can directly share the URL available on the tool's details page. The following are some of the examples:
-   - https://hash-bash.github.io/Research-Software-Ecosystem-Atlas/tool/1000genomes_id_history_converter
-   - https://hash-bash.github.io/Research-Software-Ecosystem-Atlas/tool/fargene
+   - https://hash-bash.github.io/research-software-ecosystem-atlas/tool/1000genomes_id_history_converter
+   - https://hash-bash.github.io/research-software-ecosystem-atlas/tool/fargene
 
 
 ## 🛠️ Setup and Installation
@@ -153,7 +153,7 @@ git clone https://github.com/research-software-ecosystem/content.git ../backend/
 ```
 
 #### 6. ▶️ Run the Python Script
-The Python script `merge_data_files.py` in `backend` processes and merges the metadata into `combined_metadata.json` also create a metadata file for each tool. This file is later used by the Nuxt.js frontend.
+The Python script `merge_data_files.py` in `backend` processes and merges the metadata into `combined_metadata.json` also create a metadata file for each tool. This file is later used by the Nuxt.js f[...]
 ```bash
 python ../backend/merge_data_files.py
 ```
@@ -190,7 +190,7 @@ The Python script is responsible for processing, merging metadata files and crea
 - Working:
   1. The Python script traverses through all the folders in `backend/content/data` directory, where each folder represents a tool.
   2. Each folder has metadata of several files either in JSON or YAML format.
-  3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to retrieve the information, one must modify this variable:
+  3. To retrieve the data from these files for each specific tool, we have defined a variable called `file_patterns` in `process_files_in_folder()` function. To change the files from which we want to [...]
       ```python
       file_patterns = [
         (f"bioconda_{folder_name}.yaml", "bioconda"),
@@ -202,7 +202,7 @@ The Python script is responsible for processing, merging metadata files and crea
       ```
       If none of these files exist, the tool is skipped.
 
-  4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, and how they are supposed to be stored in our combined JSON file:
+  4. The next step is to define which data is to be fetched from each file. We use a variable called `SUMMARY_DATA_KEY_MAPPINGS` to determine which keys from the JSON or YAML files are to be fetched, [...]
       ```json
       SUMMARY_DATA_KEY_MAPPINGS = {
        "bioconda": {
@@ -280,8 +280,8 @@ The user interface of the application, i.e. frontend of the project, is built us
 - **Directory Structure**:
   ```
   frontend/
-  ├── pages/               # Consists of web pages in our frontend application, like the home page to list and search tools (index.vue), and the tool description page with all the metadata of the tool (/tool/[id].vue)
-  ├── plugins/             # Consists of Nuxt.js plugins used in the application. One used by our application is Vuetify, an open source UI library which provides Material UI components used in the application
+  ├── pages/               # Consists of web pages in our frontend application, like the home page to list and search tools (index.vue), and the tool description page with all the metadata of th[...]
+  ├── plugins/             # Consists of Nuxt.js plugins used in the application. One used by our application is Vuetify, an open source UI library which provides Material UI components used in [...]
   ├── public/              # Consists of metadata generated by our Python script, and the logo used in the application (logo-rsec.svg)
   ├── server/              # Consists of tsconfig.json, which specifies the root files and the compiler options for the Nuxt.js project
   ├── stores/              # We are using a Pinia store defined in tools.js, which helps to fetch the data from the JSON file and access the frontend of the application 
@@ -294,4 +294,5 @@ The user interface of the application, i.e. frontend of the project, is built us
   2. Upon clicking on any tool from the home page, the user sees a tool details page containing all the metadata fetched from the JSON file.
 
 > **Notes:**  Once the keys in the JSON or YAML files are renamed, or if the keys are to be removed or added, we have to modify the tools' details page.
+
 
