@@ -1,0 +1,1 @@
+{"tool_name":"soapnuke3","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"soapnuke3","home":"https://github.com/BGI-flexlab/SOAPnuke3","license":"GPL-3.0","summary":"A fast and memory-efficient FASTQ preprocesser","addition_date":"2026-11-16T07:24:36.177055Z","last_update_date":"2026-11-16T07:24:36.179267Z","tool_type":["Command-line tool"]}}}
