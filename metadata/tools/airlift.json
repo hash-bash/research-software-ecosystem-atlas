@@ -1,0 +1,1 @@
+{"tool_name":"airlift","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"airlift","home":"https://github.com/CMU-SAFARI/AirLift","summary":"AirLift is a pipeline that updates mapped reads from one reference genome to another.","addition_date":"2021-03-19T09:00:16Z","last_update_date":"2026-11-12T14:31:20.850979Z","tool_type":["Workflow"]}}}

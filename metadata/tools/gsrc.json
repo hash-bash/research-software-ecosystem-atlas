@@ -1,0 +1,1 @@
+{"tool_name":"gsrc","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"gsrc","home":"https://github.com/grafab/gsrc","license":"GPL-3.0","summary":"Genome Structure Rearrangement Calling in Genomes with High Synteny.","addition_date":"2017-01-30T09:14:43Z","last_update_date":"2020-06-16T10:55:20Z","tool_type":["Command-line tool","Library"],"version":["1.1.1"]}}}

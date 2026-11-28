@@ -1,0 +1,1 @@
+{"tool_name":"cellpose","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"cellpose","home":"http://www.cellpose.org","license":"BSD-3-Clause","summary":"Cellpose is a generalist algorithm for cellular segmentation.","addition_date":"2021-01-18T07:35:18Z","last_update_date":"2026-11-12T14:15:45.569864Z","tool_type":["Library","Web application"]}}}

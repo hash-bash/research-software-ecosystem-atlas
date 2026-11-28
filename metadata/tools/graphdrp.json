@@ -1,0 +1,1 @@
+{"tool_name":"graphdrp","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"graphdrp","home":"https://github.com/hauldhut/GraphDRP","license":"Apache-2.0","summary":"Graph convolutional networks for drug response prediction.","addition_date":"2021-01-18T08:49:32Z","last_update_date":"2026-11-12T14:17:00.933517Z","tool_type":["Command-line tool"]}}}

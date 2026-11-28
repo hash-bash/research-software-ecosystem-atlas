@@ -1,0 +1,1 @@
+{"tool_name":"deep-afppred","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"deep-afppred","home":"https://afppred.anvil.app/","summary":"Identifying novel antifungal peptides using pretrained embeddings from seq2vec with 1DCNN-BiLSTM","addition_date":"2022-05-15T10:01:35.105247Z","last_update_date":"2022-05-15T10:01:35.107833Z","tool_type":["Web application"]}}}

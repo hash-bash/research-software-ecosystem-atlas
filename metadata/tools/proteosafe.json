@@ -1,0 +1,1 @@
+{"tool_name":"proteosafe","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"proteosafe","home":"http://proteomics.ucsd.edu/ProteoSAFe/","summary":"Blind spectral search of tandem mass spectra of peptides.","addition_date":"2017-01-17T14:51:11Z","last_update_date":"2024-11-25T14:11:50.024158Z","tool_type":["Command-line tool"],"collections":["Proteomics","ms-utils"]}}}

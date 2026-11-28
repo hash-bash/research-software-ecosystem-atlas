@@ -1,0 +1,1 @@
+{"tool_name":"copy-scat","contents":["biotools"],"fetched_metadata":{"biotools":{"id":"copy-scat","home":"https://github.com/spcdot/CopyscAT","license":"GPL-3.0","summary":"Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer.","addition_date":"2022-04-25T14:20:42.510385Z","last_update_date":"2022-04-25T14:20:42.514041Z","tool_type":["Library"]}}}
